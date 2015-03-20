@@ -17,18 +17,13 @@ Pod::Spec.new do |s|
 
   s.name         = "PodsResearch"
   s.version      = "0.0.1"
-  s.summary      = "A short description of PodsResearch."
+  s.summary      = "Test project to investigate pods"
 
   s.description  = <<-DESC
-                   A longer description of PodsResearch in Markdown format.
-
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
+                   Some desc just to pass validation
                    DESC
 
-  s.homepage     = "http://EXAMPLE/PodsResearch"
+  s.homepage     = "http://google.com"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +34,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE.txt" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -77,7 +72,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/i-pesin/PodsResearch.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/i-pesin/PodsResearch.git", :tag => "0.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -130,6 +125,6 @@ Pod::Spec.new do |s|
  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-	spec.dependency 'AFNetworking'
+s.dependency 'AFNetworking'
 
 end
